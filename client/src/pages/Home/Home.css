@@ -1,0 +1,33 @@
+.home-container {
+  /* fallback gradient if no image provided */
+  background: linear-gradient(135deg, #f3e8ff 0%, #eef2ff 50%, #ffffff 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.home-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* If you want to use a public image put it under client/public/images and
+   uncomment the line below and replace 'school-bg.jpg' with your filename. */
+/*
+.home-container {
+  background-image: url('/images/school-bg.jpg');
+}
+*/
