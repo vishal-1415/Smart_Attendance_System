@@ -1,5 +1,5 @@
 .home-container {
-  /* fallback gradient if no image provided */
+
   background: linear-gradient(135deg, #f3e8ff 0%, #eef2ff 50%, #ffffff 100%);
   background-size: cover;
   background-position: center;
@@ -24,10 +24,3 @@
   z-index: 2;
 }
 
-/* If you want to use a public image put it under client/public/images and
-   uncomment the line below and replace 'school-bg.jpg' with your filename. */
-/*
-.home-container {
-  background-image: url('/images/school-bg.jpg');
-}
-*/
